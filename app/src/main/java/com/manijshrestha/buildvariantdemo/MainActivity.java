@@ -1,7 +1,8 @@
 package com.manijshrestha.buildvariantdemo;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -11,7 +12,7 @@ import com.manijshrestha.buildvariantdemo.model.WeatherData;
 import com.manijshrestha.buildvariantdemo.service.WeatherListener;
 import com.manijshrestha.buildvariantdemo.service.WeatherService;
 
-public class MainActivity extends ActionBarActivity implements WeatherListener {
+public class MainActivity extends AppCompatActivity implements WeatherListener {
 
     private EditText mCityName;
     private TextView mTemperature;
